@@ -24,7 +24,6 @@ function Create_wallet() {
         setAddress(data.Address);
       });
   }, [])
-
   const arr = Phrase.split(' ');
 
   function getBack() {
